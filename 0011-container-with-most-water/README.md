@@ -1,61 +1,32 @@
-# 🚀 Java
+<h2><a href="https://leetcode.com/problems/container-with-most-water">11. Container With Most Water</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>height</code> of length <code>n</code>. There are <code>n</code> vertical lines drawn such that the two endpoints of the <code>i<sup>th</sup></code> line are <code>(i, 0)</code> and <code>(i, height[i])</code>.</p>
 
-A dedicated collection of LeetCode solutions implemented in **Java**, focused on building strong foundations in **Data Structures and Algorithms (DSA)** and mastering problem-solving for technical interviews.
+<p>Find two lines that together with the x-axis form a container, such that the container contains the most water.</p>
 
----
+<p>Return <em>the maximum amount of water a container can store</em>.</p>
 
-## 📌 About
-This branch contains my personal journey of solving LeetCode problems using Java.  
-Each solution is written with:
-- Clean and readable code 🧹
-- Optimized approaches ⚡
-- Interview-focused logic 💼
+<p><strong>Notice</strong> that you may not slant the container.</p>
 
----
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg" style="width: 600px; height: 287px;" />
+<pre>
+<strong>Input:</strong> height = [1,8,6,2,5,4,8,3,7]
+<strong>Output:</strong> 49
+<strong>Explanation:</strong> The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+</pre>
 
-## 🧠 Topics Covered
-- Arrays & Strings
-- Linked Lists
-- Stacks & Queues
-- Trees & Binary Trees
-- Graphs
-- Recursion & Backtracking
-- Dynamic Programming
-- Greedy Algorithms
-- Searching & Sorting
-- 
----
+<p><strong class="example">Example 2:</strong></p>
 
-## 🎯 Goals
-- Strengthen DSA concepts
-- Improve problem-solving skills
-- Prepare for coding interviews
-- Write clean and efficient Java code
+<pre>
+<strong>Input:</strong> height = [1,1]
+<strong>Output:</strong> 1
+</pre>
 
----
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-## 📈 Progress
-- ✅ Solving problems regularly
-- 🔄 Continuously improving optimization techniques
-- 🚀 Target: Consistency + Mastery
-
----
-
-## 🛠️ Tech Stack
-- Language: **Java**
-- Platform: **LeetCode**
-
----
-
-## 🤝 Contributions
-This is a personal learning repository, but suggestions and improvements are always welcome!
-
----
-
-## ⭐ Support
-If you find this helpful, consider giving it a ⭐ to support the repo!
-
----
-
-### 💡 Quote
-> "Consistency beats intensity. Keep solving, keep improving."
+<ul>
+	<li><code>n == height.length</code></li>
+	<li><code>2 &lt;= n &lt;= 10<sup>5</sup></code></li>
+	<li><code>0 &lt;= height[i] &lt;= 10<sup>4</sup></code></li>
+</ul>

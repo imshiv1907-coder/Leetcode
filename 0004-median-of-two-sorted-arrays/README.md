@@ -1,61 +1,32 @@
-# 🚀 Java
+<h2><a href="https://leetcode.com/problems/median-of-two-sorted-arrays/">4. Median of Two Sorted Arrays</a></h2><h3>Hard</h3><hr><p>Given two sorted arrays <code>nums1</code> and <code>nums2</code> of size <code>m</code> and <code>n</code> respectively, return <strong>the median</strong> of the two sorted arrays.</p>
 
-A dedicated collection of LeetCode solutions implemented in **Java**, focused on building strong foundations in **Data Structures and Algorithms (DSA)** and mastering problem-solving for technical interviews.
+<p>The overall run time complexity should be <code>O(log (m+n))</code>.</p>
 
----
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-## 📌 About
-This branch contains my personal journey of solving LeetCode problems using Java.  
-Each solution is written with:
-- Clean and readable code 🧹
-- Optimized approaches ⚡
-- Interview-focused logic 💼
+<pre>
+<strong>Input:</strong> nums1 = [1,3], nums2 = [2]
+<strong>Output:</strong> 2.00000
+<strong>Explanation:</strong> merged array = [1,2,3] and median is 2.
+</pre>
 
----
+<p><strong class="example">Example 2:</strong></p>
 
-## 🧠 Topics Covered
-- Arrays & Strings
-- Linked Lists
-- Stacks & Queues
-- Trees & Binary Trees
-- Graphs
-- Recursion & Backtracking
-- Dynamic Programming
-- Greedy Algorithms
-- Searching & Sorting
-- 
----
+<pre>
+<strong>Input:</strong> nums1 = [1,2], nums2 = [3,4]
+<strong>Output:</strong> 2.50000
+<strong>Explanation:</strong> merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
+</pre>
 
-## 🎯 Goals
-- Strengthen DSA concepts
-- Improve problem-solving skills
-- Prepare for coding interviews
-- Write clean and efficient Java code
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
----
-
-## 📈 Progress
-- ✅ Solving problems regularly
-- 🔄 Continuously improving optimization techniques
-- 🚀 Target: Consistency + Mastery
-
----
-
-## 🛠️ Tech Stack
-- Language: **Java**
-- Platform: **LeetCode**
-
----
-
-## 🤝 Contributions
-This is a personal learning repository, but suggestions and improvements are always welcome!
-
----
-
-## ⭐ Support
-If you find this helpful, consider giving it a ⭐ to support the repo!
-
----
-
-### 💡 Quote
-> "Consistency beats intensity. Keep solving, keep improving."
+<ul>
+	<li><code>nums1.length == m</code></li>
+	<li><code>nums2.length == n</code></li>
+	<li><code>0 &lt;= m &lt;= 1000</code></li>
+	<li><code>0 &lt;= n &lt;= 1000</code></li>
+	<li><code>1 &lt;= m + n &lt;= 2000</code></li>
+	<li><code>-10<sup>6</sup> &lt;= nums1[i], nums2[i] &lt;= 10<sup>6</sup></code></li>
+</ul>
