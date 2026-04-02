@@ -1,61 +1,29 @@
-# 🚀 Java
 
-A dedicated collection of LeetCode solutions implemented in **Java**, focused on building strong foundations in **Data Structures and Algorithms (DSA)** and mastering problem-solving for technical interviews.
+<h2><a href="https://leetcode.com/problems/longest-common-prefix">14. Longest Common Prefix</a></h2><h3>Easy</h3><hr><p>Write a function to find the longest common prefix string amongst an array of strings.</p>
 
----
+<p>If there is no common prefix, return an empty string <code>&quot;&quot;</code>.</p>
 
-## 📌 About
-This branch contains my personal journey of solving LeetCode problems using Java.  
-Each solution is written with:
-- Clean and readable code 🧹
-- Optimized approaches ⚡
-- Interview-focused logic 💼
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
----
+<pre>
+<strong>Input:</strong> strs = [&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]
+<strong>Output:</strong> &quot;fl&quot;
+</pre>
 
-## 🧠 Topics Covered
-- Arrays & Strings
-- Linked Lists
-- Stacks & Queues
-- Trees & Binary Trees
-- Graphs
-- Recursion & Backtracking
-- Dynamic Programming
-- Greedy Algorithms
-- Searching & Sorting
-- 
----
+<p><strong class="example">Example 2:</strong></p>
 
-## 🎯 Goals
-- Strengthen DSA concepts
-- Improve problem-solving skills
-- Prepare for coding interviews
-- Write clean and efficient Java code
+<pre>
+<strong>Input:</strong> strs = [&quot;dog&quot;,&quot;racecar&quot;,&quot;car&quot;]
+<strong>Output:</strong> &quot;&quot;
+<strong>Explanation:</strong> There is no common prefix among the input strings.
+</pre>
 
----
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-## 📈 Progress
-- ✅ Solving problems regularly
-- 🔄 Continuously improving optimization techniques
-- 🚀 Target: Consistency + Mastery
-
----
-
-## 🛠️ Tech Stack
-- Language: **Java**
-- Platform: **LeetCode**
-
----
-
-## 🤝 Contributions
-This is a personal learning repository, but suggestions and improvements are always welcome!
-
----
-
-## ⭐ Support
-If you find this helpful, consider giving it a ⭐ to support the repo!
-
----
-
-### 💡 Quote
-> "Consistency beats intensity. Keep solving, keep improving."
+<ul>
+	<li><code>1 &lt;= strs.length &lt;= 200</code></li>
+	<li><code>0 &lt;= strs[i].length &lt;= 200</code></li>
+	<li><code>strs[i]</code> consists of only lowercase English letters if it is non-empty.</li>
+</ul>
